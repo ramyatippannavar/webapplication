@@ -39,7 +39,6 @@ public void clickonforgotlink(String mobilenumber) throws Exception
 	forgotlink.click();
 	Thread.sleep(2000);
 	emailORmobilenumber.sendKeys(mobilenumber);
-	System.out.println("enetered emai or mobile  number");
-	
+	System.out.println("enetered emai or mobile  number");	
 }
 }

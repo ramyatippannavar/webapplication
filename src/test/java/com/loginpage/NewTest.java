@@ -1,15 +1,14 @@
 package com.loginpage;
-
 import org.testng.annotations.Test;
-
 import com.element.homepage_fb;
-
 import org.openqa.selenium.support.PageFactory;
 
-public class NewTest extends BaseClass 
+
+public class NewTest extends BaseClass
 {
-	@Test(priority=0)
-	public void loginapplication() throws Exception 
+	
+	@Test()
+	public void log() throws Exception 
 	 {   
 		
 		homepage_fb fb =PageFactory.initElements(driver, homepage_fb.class);
@@ -17,7 +16,7 @@ public class NewTest extends BaseClass
 	    fb.verifylink();
 	    
      }
-	@Test(priority=1)
+	@Test()
 	public void login() throws Exception 
 	 {   
 		

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="95368" started-at="2020-09-30T20:21:49 IST" finished-at="2020-09-30T20:23:24 IST">
+    <groups>
+    </groups>
+    <test name="Test2" duration-ms="95368" started-at="2020-09-30T20:21:49 IST" finished-at="2020-09-30T20:23:24 IST">
+      <class name="com.loginpage.NewTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.loginpage.NewTest@3108bc]" name="setup" is-config="true" duration-ms="1585" started-at="2020-09-30T20:21:49 IST" finished-at="2020-09-30T20:21:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.loginpage.NewTest@3108bc]" name="beforetest" is-config="true" duration-ms="57924" started-at="2020-09-30T20:21:50 IST" finished-at="2020-09-30T20:22:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="log()[pri:0, instance:com.loginpage.NewTest@3108bc]" name="log" duration-ms="2438" started-at="2020-09-30T20:22:48 IST" finished-at="2020-09-30T20:22:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- log -->
+        <test-method status="PASS" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.loginpage.NewTest@3108bc]" name="teardownmethod" is-config="true" duration-ms="3800" started-at="2020-09-30T20:22:51 IST" finished-at="2020-09-30T20:22:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=log status=SUCCESS method=NewTest.log()[pri:0, instance:com.loginpage.NewTest@3108bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:com.loginpage.NewTest@3108bc]" name="beforetest" is-config="true" duration-ms="16897" started-at="2020-09-30T20:22:55 IST" finished-at="2020-09-30T20:23:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.loginpage.NewTest@3108bc]" name="login" duration-ms="9176" started-at="2020-09-30T20:23:12 IST" finished-at="2020-09-30T20:23:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="teardownmethod(org.testng.ITestResult)[pri:0, instance:com.loginpage.NewTest@3108bc]" name="teardownmethod" is-config="true" duration-ms="3473" started-at="2020-09-30T20:23:21 IST" finished-at="2020-09-30T20:23:24 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=NewTest.login()[pri:0, instance:com.loginpage.NewTest@3108bc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardownmethod -->
+      </class> <!-- com.loginpage.NewTest -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

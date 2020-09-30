@@ -4,7 +4,6 @@
     <test name="Test2">
     <classes>  
       <class name="com.loginpage.NewTest"/>
-      <class name="com.loginpage.Loginpage"/>
        </classes>
     </test>
     </suite> 

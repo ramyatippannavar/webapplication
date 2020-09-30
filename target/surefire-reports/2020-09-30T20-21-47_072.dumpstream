@@ -1,0 +1,4 @@
+# Created at 2020-09-30T20:21:47.818
+Boot Manifest-JAR contains absolute paths in classpath 'F:\ramya_selenium\Webapplication\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
